@@ -4,10 +4,10 @@ export const config = {
    */
 
   // 公众号APP_ID
-  APP_ID: "wxc35991576e736584",
+  APP_ID: "wx27b1d64fe71885bd",
 
   // 公众号APP_SECRET
-  APP_SECRET: "db28f4120d087bc809b42454610d0f74",
+  APP_SECRET: "ae1d69185b53112cda5670c2b86834a8",
 
   /**
    * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
@@ -27,15 +27,15 @@ export const config = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: "要",
+      name: "小何",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "ok85-5_IGuOB9nv8ZcsbMuk68ttg",
+      id: "ok85-oIhbX5vECiYMY6uk30cFVZwNDrcE",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "	7zdf4fFLeSPGJfDH0ufNnpHCrliAaL8HcE555LCunhU",
+      useTemplateId: "	WOlk1-NHMvE3NJXFofR0SwJrfys5uswL_0NYyenlaJQ",
       // 所在省份
-      province: "安徽",
+      province: "黑龙江",
       // 所在城市
-      city: "合肥",
+      city: "哈尔滨",
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
       openUrl: "https://www.bilibili.com"
     } 
@@ -54,7 +54,7 @@ export const config = {
       // 一般都填自己
       name: "自己",
       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oPrjH6ImDiXbObWdbiVQtAB7PuoQ",
+      id: "oIhbX5vECiYMY6uk30cFVZwNDrcE",
     }, 
   ],
     
@@ -75,10 +75,9 @@ export const config = {
    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
    */
   FESTIVALS: [
-    {"type": "生日", "name": "张小🐖", "year": "1999", "date": "09-18"},
-    {"type": "节日", "name": "相识纪念日", "year": "2018", "date": "04-26"},
-    {"type": "生日", "name": "小王", "year": "1997", "date": "11-01"},
-    {"type": "节日", "name": "在一起纪念日", "year": "2022", "date": "07-04"},
+    {"type": "生日", "name": "小何", "year": "2001", "date": "05-31"},
+    {"type": "生日", "name": "小张", "year": "2001", "date": "06-13"},
+    {"type": "节日", "name": "在一起纪念日", "year": "2017", "date": "04-25"},
   ],
 
   /**
@@ -86,7 +85,7 @@ export const config = {
    * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
    * 如果为0, 则默认展示全部
    */
-  FESTIVALS_LIMIT: 4,
+  FESTIVALS_LIMIT: 0,
 
   /** 日期相关 */
 
@@ -96,7 +95,7 @@ export const config = {
     * */
   CUSTOMIZED_DATE_LIST: [
     // 在一起的日子
-    {"keyword": "love_day", date: "2022-07-04"},
+    {"keyword": "love_day", date: "2017-04-25"},
     // 结婚纪念日
  //   {"keyword": "marry_day", date: "2020-01-04"},
     // 退伍日, 不用可以删掉
@@ -114,7 +113,7 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
+    {"keyword": "encourage_oneself", contents: "因为太喜欢你，所以看谁都像是情敌。"},
     // 这样配置的话，就会每次随机选一句话发送
     {"keyword": "lover_prattle", contents: [
       "因为太喜欢你，所以看谁都像是情敌。",
